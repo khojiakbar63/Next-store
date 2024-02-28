@@ -1,0 +1,29 @@
+.btn {
+   background-color: #fff;
+   width: 101.3%;
+   padding: 14px;
+   border-radius: 10px;
+   border: 1px solid #fff;
+   font-size: 18px;
+   font-weight: 591;
+   line-height: 21.6px;
+}
+.btns{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.card__btn{
+   padding: 10.5px 24.5px;
+   background-color: var(--bg-primary-blue);
+   border-radius: 10px;
+   border: 1px solid var(--bg-primary-blue);
+   color: #fff;
+   letter-spacing: 1%;
+   font-weight: 539;
+   font-size: 16px;
+   line-height: 19px;
+}
+.batafsil__btn{
+   margin-top: 37px;
+}

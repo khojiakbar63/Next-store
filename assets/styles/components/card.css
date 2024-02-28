@@ -1,0 +1,92 @@
+.intro__title{
+   font-weight: 591;
+   font-size: 28px;
+   line-height: 33.6px;
+   color: #1E1E1E;
+   margin-top: 120px;
+}
+.intro__title2{
+   margin-top: 40px;
+}
+.cards {
+   margin: 20px 0;
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   grid-gap: 20.93px;
+   justify-content: space-between;
+}
+.cards .card{
+   background-color: #fff;
+   border-radius: 10px;
+   position: relative;
+   text-align: center;
+}
+
+.cards .card img{
+   border-radius: 10px;
+}
+.cards .card .card__body{
+   padding: 10px;
+   text-align: left;
+}
+.cards .card .card__body h4{
+font-weight: 539;
+font-size: 14px;
+line-height: 16.8px;
+text-align: center;
+}
+.cards2{
+   margin-top: 40px;
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+.cards2 .card{
+   position: relative;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 10px;
+   text-align: center;
+}
+.cards2 .card .card__body{
+   text-align: start;
+}
+.cards2 .card .bx-heart{
+   position: absolute;
+   right: 15px;
+   top: 15px;
+   font-size: 24px;
+   color: #F64D4D33;
+}
+.cards2 {
+   grid-template-columns: repeat(5, 1fr);
+}
+.cards2 .card img{
+   margin-top: 20px;
+}
+.cards2 .card .card__body .price{
+   font-weight: 591;
+   font-size: 18px;
+   line-height: 21.6px;
+   color: var(--bg-primary-blue);
+}
+.cards2 .card .card__body .model{
+   font-weight: 539;
+   font-size: 14px;
+   line-height: 16.8px;
+   color: var(--bg-darken);
+   margin: 6px 0 33px;
+}
+.cards2 .card .card__body .order{
+   font-weight: 539;
+   font-size: 14px;
+   line-height: 16.8px;
+   color: var(--bg-gray);
+   margin: 6px 0 33px;
+}
+
+.cards2 .card .card__body .bx-cart-alt{
+   font-size: 24px;
+   margin-right: 28px;
+   color: var(--bg-gray);
+}
