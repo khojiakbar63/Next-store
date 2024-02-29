@@ -127,3 +127,34 @@ header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3):hover {
   color: #fff;
   cursor: pointer;
 }
+.bx-menu{
+  font-size: 40px;
+  margin-bottom: 14px;
+  display: inline-block;
+  display: none;
+}
+.menu_anchor{
+  display: none;
+}
+
+/* Media query */
+@media only screen and (max-width: 1200px){
+  header .container .nav .nav__list {
+    display: none;
+  }
+  header .container .nav .menu_anchor {
+    display: block;
+    border: none;
+  }
+  header .container .nav .menu_anchor .bx-menu{
+    display: block;
+  }
+  header .container .nav{
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+  }
+  header .container .header-top{
+    display: none;
+  }
+}
