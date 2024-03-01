@@ -50,6 +50,7 @@
 
 /* Media query */
 @media only screen and (max-width: 768px){
+
     .swiper {
         max-width: 90%;
         height: 300px;
