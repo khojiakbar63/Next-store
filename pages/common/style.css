@@ -1,0 +1,109 @@
+#products{
+    padding-top: 70px;
+}
+
+#products .products__title {
+    font-weight: 539;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--bg-darken);
+    margin: 10px 0;
+}
+#products .light_text {
+    font-weight: 539;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--bg-gray);
+}
+
+#products .cards .card{
+    background-color: #fff;
+    padding: 30px;
+}
+
+#products .cards .card .card__body{
+    text-align: center;
+}
+#products .cards .card .card__body {
+    text-align: center;
+}
+#products .cards {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
+}
+#kop__sotilgan .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+#kop__sotilgan .cards .card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#kop__sotilgan .cards .card .sale{
+    padding: 1px 10px;
+    background-color: #FF0101;
+    color: #fff;
+    border: 1px solid #FF0101;
+    border-radius: 3px;
+}
+#kop__sotilgan .cards .card .yangilik{
+    padding: 1px 10px;
+    background-color: #EB8528;
+    color: #fff;
+    border: 1px solid #EB8528;
+    border-radius: 3px;
+}
+#kop__sotilgan .cards .card .stickers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#kop__sotilgan .cards .card .card__body .price {
+    font-weight: 591;
+    font-style: 18px;
+    line-height: 21px;
+    color: var( --bg-primary-blue);
+}
+#kop__sotilgan .cards .card .card__body .model {
+    font-weight: 430;
+    font-size: 14px;
+    line-height: 16px;
+    color: var( --bg-gray);
+    margin: 6px 0 16px;
+}
+
+#kop__sotilgan .cards .card .card__body .order {
+    font-weight: 430;
+    font-size: 14px;
+    line-height: 16px;
+    color: var( --bg-darken);
+    margin: 16px 0 25px;
+}
+#kop__sotilgan .cards .card .bx-heart {
+    font-weight: 430;
+    font-size: 26px;
+    line-height: 16px;
+    color: var( --bg-gray);
+    margin: 16px 0 25px;
+}
+#kop__sotilgan .cards .card .card__body .bx-cart-alt{
+    font-weight: 430;
+    font-size: 26px;
+    line-height: 16px;
+    color: var( --bg-gray);
+    margin: 16px 0 25px;
+}
+
+@media only screen and (max-width: 768px) {
+   #intro {
+    margin-bottom: -70px;
+   }
+}
+@media only screen and (max-width: 480px) {
+   #intro {
+    margin-bottom: -170px;
+   }
+}

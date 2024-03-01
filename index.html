@@ -32,44 +32,52 @@
 
       <div class="container">
         <nav class="nav">
-          <a class="menu_anchor" href="#">
-            <i class='bx bx-menu'></i>
-          </a>
-          <a href="#" class="nav__logo">
-            <img src="./public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
-          </a>
-          <span></span>
+          
+          <div class="menu__logo_wrapper">
 
-          <ul class="nav__list">
-            <li class="nav__list--item">
-              <button>
-                <i class="bx bx-menu"></i>
-                <span>KATALOG</span>
-              </button>
-            </li>
+            <span class="menu__wrapper">
+              <img src="./assets/icons/mobile_menu.svg" alt="">
+            </span>
 
-            <li class="nav__list--item nav__list--search">
-              <div class="search__wrapper">
-                <input type="text" placeholder="Maxsulotlarni izlash" />
+            <a href="#" class="nav__logo">
+              <img src="./public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
+            </a>
+            <span></span>
+          </div>
+
+            <ul class="nav__list">
+              <li class="nav__list--item">
                 <button>
-                  <i class="bx bx-search"></i>
+                  <i class="bx bx-menu"></i>
+                  <span>KATALOG</span>
                 </button>
-              </div>
-            </li>
+              </li>
+  
+              <li class="nav__list--item nav__list--search">
+                <div class="search__wrapper">
+                  <input type="text" placeholder="Maxsulotlarni izlash"/>
+                  <button>
+                    <i class="bx bx-search"></i>
+                  </button>
+                </div>
+              </li>
 
-            <li class="nav__list--item">
-              <button>
-                <a href="#"><i class="bx bx-heart"></i></a>
-              </button>
-              <button>
-                <a href="#"><i class="bx bx-cart"></i></a>
-              </button>
-              <button>
-                <i class="bx bx-user"></i>
-              </button>
-            </li>
+              <li class="nav__list--item">
+                <button>
+                    <a href="#"><i class="bx bx-heart"></i></a>
+                </button>
+                <button>
+                    <a href="#"><i class="bx bx-cart"></i></a>
+                </button>
+                <button>
+                    <i class="bx bx-user"></i>
+                </button>
+              </li>
+
           </ul>
+
         </nav>
+
       </div>
     </header>
     <!-- ============================= HEADER END ========================== -->
@@ -86,35 +94,31 @@
                 <div class="swiper categorySwiper">
                   <!-- Additional required wrapper -->
                   <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                      <img class="slide_img" src="./assets/icons/sale_banner.avif" alt="banner_slide_1">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img class="slide_img" src="./assets/images/intr-banner.jpg" alt="banner_slide_1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slide_img" src="assets/images/banner_slide_2.avif" alt="banner_slide_2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slide_img" src="./assets/images/banner_slide_3.jpeg" alt="banner_slide_3">
+                        </div>
+                        ...
                     </div>
-                    <div class="swiper-slide">
-                      <img class="slide_img" src="assets/images/banner_slide_2.avif" alt="banner_slide_2">
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="slide_img" src="./assets/images/banner_slide_3.jpeg" alt="banner_slide_3">
-                    </div>
-                    ...
-                  </div>
-      
-                <!-- If we need pagination -->
-               <div class="swiper-pagination"></div>
-               <!-- If we need navigation buttons -->
-               <div class="swiper-button-prev inside_slider inside_slider-prev"></div>
-               <div class="swiper-button-next inside_slider inside_slider-next"></div>
+                    
+                    <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev inside_slider inside_slider-prev"></div>
+                <div class="swiper-button-next inside_slider inside_slider-next"></div>
 
                 </div>
-               <!-- If we need pagination -->
-               <div class="swiper-pagination"></div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev outside_slider"></div>
-                <div class="swiper-button-next outside_slider"></div>
 
               </div>
             </div>
       </section>
+      
 <!-- category -->
       <section id="category">
         <div class="container">
@@ -397,16 +401,9 @@
                 </div>
                 ...
               </div>
-
-                
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev inside_slider inside_slider-prev"></div>
-              <div class="swiper-button-next inside_slider inside_slider-next"></div>
  
-  
             </div>
+
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
             <!-- If we need navigation buttons -->
@@ -698,13 +695,7 @@
                 </div>
                 ...
               </div>
-  
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev inside_slider inside_slider-prev"></div>
-              <div class="swiper-button-next inside_slider inside_slider-next"></div>
- 
+
   
             </div>
             <!-- If we need pagination -->
