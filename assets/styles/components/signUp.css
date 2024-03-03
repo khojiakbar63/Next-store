@@ -1,0 +1,68 @@
+.sign__up__wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: -1200px;
+    background-color: #000000a8;
+    backdrop-filter: blur(20px);
+    z-index: 999;
+    display: grid;
+    place-items: center;
+}
+.active-signUp{
+    animation-name: signUpShow;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: .1s;
+}
+@keyframes signUpShow {
+    from {
+        left: 0px;
+        top: -1000px;
+    }
+    to{
+        left: 0;
+        top: 0;
+    }
+}
+.sign__up__box {
+    position: absolute;
+    padding: 80px;
+    background-color: #fff;
+    width: 466px;
+    height: 425px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: .3s;
+}
+.sign__up__box .bx-x{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 40px;
+}
+.sign__up__box h3{
+    font-size: 24px;
+}
+
+.sign__up__box .btn {
+    padding: auto;
+    border: 2px solid #1e90ff;
+}
+.sign__up__box .kirish_btn {
+    background-color: #1e90ff;
+}
+.sign__up__box .royxat_btn {
+    background: -webkit-linear-gradient(#4D5EF6, #F64D4D);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid transparent;
+    border-image: var(--bg-gradient-dark);
+    border-image-slice: 10%;
+    border-radius: 18px;
+}

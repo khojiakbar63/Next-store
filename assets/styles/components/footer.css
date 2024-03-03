@@ -12,6 +12,11 @@ footer{
 }
 footer .wrapper .left {
    gap: 40px;
+   background-image: none;
+}
+footer .copyright .left {
+   gap: 40px;
+   background-image: none;
 }
 footer .wrapper .left .list{
    list-style-type: none;

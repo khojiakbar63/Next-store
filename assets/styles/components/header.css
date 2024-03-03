@@ -5,6 +5,10 @@ header {
   z-index: 1000;
   border-bottom: 1px solid silver;
   background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+header #toggle {
+    padding-top: 14px;
 }
 header .nav .logo_searcher_wrapper{
   display: none;
@@ -132,10 +136,10 @@ header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3):hover {
   color: #fff;
   cursor: pointer;
 }
-.menu__wrapper img{
-  width: 36px;
-  height: 36px;
-  margin-bottom: 5px;
+.menu__wrapper {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
 }
 .menu__wrapper{
   display: none;
@@ -182,7 +186,7 @@ header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3):hover {
     display: flex;
     flex-direction: column;
     gap: 0px;
-    z-index: 9999;
+    z-index: 999;
   }
   header .nav .menu__logo_wrapper{
     display: flex;
@@ -209,5 +213,7 @@ header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3):hover {
     padding: 15px 80px;
     background-color: var(--bg-white-blue);
   }
-
+  header #user{ 
+      display: block;
+  }
 }
