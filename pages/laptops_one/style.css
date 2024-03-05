@@ -1,0 +1,51 @@
+#kop__sotilgan{
+    margin-top: 50px;
+}
+#kop__sotilgan .container{
+    /* display: flex; */
+}
+#kop__sotilgan .laptops_card{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    height: 493px;  
+}
+#kop__sotilgan .laptops_card p{
+    text-align: center;
+    color: #000000;
+}
+#kop__sotilgan .laptops_card ul{
+    list-style-type: none;
+}
+#kop__sotilgan .laptops_card ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    color: #1E1E1E;
+}
+#kop__sotilgan .laptops_card ul li a:hover {
+    color: rgb(4, 2, 47);
+}
+#kop__sotilgan .laptops_card button {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    color: #908d8d;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 70px;
+}
+
+#kop__sotilgan .cards{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#kop__sotilgan .cards_wrapper {
+    max-width: 980px;
+
+}
+#kop__sotilgan .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
