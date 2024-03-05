@@ -1,0 +1,63 @@
+#intro {
+    margin-bottom: 450px;
+}
+#intro .breadcrump{
+    font-weight: 500;
+    font-size: 14px;
+    left: 16px;
+    color: #6C757D;
+    margin-bottom: 20px;
+}
+#intro .breadcrump .black__text{
+    font-weight: 500;
+    font-size: 14px;
+    left: 16px;
+    color: #1E1E1E;
+}
+#intro .wrapper .left{
+    display: flex;
+    flex-direction: column;
+}
+#intro .wrapper .left .card{
+    background-color: #ffffff !important;
+     width: 546px;
+     height: 546px;
+     border-radius: 10px;
+     position: relative;
+     padding: 73px;
+}
+#intro .wrapper .left .card .heart{
+     width: 32px;
+     height: 32px;
+     position: absolute;
+     top: 20px;
+     right: 20px;
+}
+#intro .wrapper .left .card .share{
+     width: 32px;
+     height: 32px;
+     position: absolute;
+     top: 72px;
+     right: 20px;
+}
+#intro .wrapper .left .cards{
+    width: 546px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#intro .wrapper .left .cards img{
+    background-color: #fff;
+    padding: 18px 10px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+#kop__sotilgan{
+    margin-top: 9000px;
+}

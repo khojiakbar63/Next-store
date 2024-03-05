@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nextstore.uz Single product page</title>
+    <!---------- Swiper ----------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- ------ Favicons ------- -->
+    <link rel="icon" href="./public/Logo.svg" />
+    <!-- -----  Main.css ---------- -->
+    <link rel="stylesheet" href="../../main.css" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <!--------------- Loader ---------->
+    <div id="blur_bg" class="blur_bg">
+
+        <div class="loader__wrapper">
+            <div id="loader" class="loader"></div>
+        </div>
+
+    </div>
+    <!-------------  Account  -------->
+    <div id="account" class="show__side_panell">
+
+        <button id="close">
+            <span class="box_close">
+                <i class='bx bx-x'></i>
+            </span>
+        </button>
+
+        <button id="account_btn">
+            Hisobga kirish
+        </button>
+
+        <div class="lang">
+
+            <label for="lang__choice">
+                <input id="lang__choice" type="radio" name="lang">
+                O’zbekcha
+            </label>
+
+            <label for="lang__choice">
+                <input id="lang__choice" type="radio" name="lang">
+                Ruscha
+            </label>
+
+        </div>
+
+        <div class="sections">
+            <h3>Bo’limlar</h3>
+            <p>
+                <span>Kategoriyalar</span>
+                <span><i class='bx bx-chevron-right'></i></span>
+            </p>
+            <p>
+                <span>Mahsulotlar katalogi</span>
+                <span><i class='bx bx-chevron-right'></i></span>
+            </p>
+            <p>
+                <span>Xizmatlarimiz</span>
+                <span><i class='bx bx-chevron-right'></i></span>
+            </p>
+
+            <p>Nasiya savdo</p>
+
+            <p>Biz haqimizda </p>
+
+        </div>
+
+        <div class="info_service">
+            <h3>Axbarot xizmati</h3>
+            <p><a href="mailto: hojiakbar7796@mail.ru">hojiakbar7796@mail.ru</a></p>
+            <p><a href="tel: 998900241098">998900241098</a></p>
+        </div>
+    </div>
+
+    <!-- ------------Sign Up ---------->
+    <div class="sign__up__wrapper" id="sign__up__wrapper">
+
+        <div class="sign__up__box">
+
+            <span id="close_sign-up-modal"><i class='bx bx-x'></i></span>
+            <h3>Hisobga kirish uchun </h3>
+
+            <button class="btn kirish_btn">Kirish</button>
+            <span>Yoki</span>
+            <button class="btn royxat_btn">Ro’yxatdan o’tish</button>
+          </div>
+
+    </div>
+
+    
+    <!-- ----------Katalog ----------->
+    <div id="catalog">
+
+        <div class="left">
+            <ul class="list">
+                <li><a href="#" class="fire__wrapper list__item">
+                    <img class="fire" src="./assets/icons/fire.svg" alt="fire">
+                    Aksiya
+                </a></li>
+                <li class="list__item"><a href="#">Kompyuterlar va notebook</a></li>
+                <li class="list__item"><a href="#">Telefonlar</a></li>
+                <li class="list__item"><a href="#">Maishiy texnika</a></li>
+                <li class="list__item"><a href="#">Erkaklar uchun kiyim</a></li>
+                <li class="list__item"><a href="#">Ayollar uchun kiyimlar</a></li>
+                <li class="list__item"><a href="#">Bolalar uchun </a></li>
+                <li class="list__item"><a href="#">Avtomobil mahsulotlari</a></li>
+                <li class="list__item"><a href="#">Go'zallik va so'glik</a></li>
+                <li class="list__item"><a href="#">Sport va o'yin-kulgi</a></li>
+                <li class="list__item"><a href="#">Uy hayvonlari uchun tovarlar</a></li>
+                <li class="list__item"><a href="#">Xobbi va ijodkorlik</a></li>
+                <li class="list__item"><a href="#">Kantselyariya buyumlari</a></li>
+                <li class="list__item"><a href="#">Sport va o'yin-kulgi</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+
+            <ul class="list">
+                <li class="list__item bold"><a href="#">Brendlar </a></li>
+                <li class="list__item"><a href="#">Samsung</a></li>
+                <li class="list__item"><a href="#">Vivo</a></li>
+                <li class="list__item"><a href="#">Apple</a></li>
+                <li class="list__item"><a href="#">Samsung</a></li>
+                <li class="list__item"><a href="#">Vivo</a></li>
+                <li class="list__item"><a href="#">Apple</a></li>
+                <li class="list__item"><a href="#">Samsung</a></li>
+                <li class="list__item"><a href="#">Vivo</a></li>
+                <li class="list__item"><a href="#">Apple</a></li>
+                <li class="list__item"><a href="#">Samsung</a></li>
+                <li class="list__item"><a href="#">Vivo</a></li>
+                <li class="list__item"><a href="#">Apple</a></li>
+                <li class="list__item"><a href="#">Samsung</a></li>
+                <li class="list__item"><a href="#">Vivo</a></li>
+                <li class="list__item"><a href="#">Apple</a></li>
+                <li class="list__item"><a href="#">Samsung</a></li>
+                <li class="list__item"><a href="#">Vivo</a></li>
+            
+                <li><a class="more" href="#">Koproq</a></li>
+  
+            </ul>
+
+            <div class="table__wrapper">
+
+                <table>
+    
+                    <thead>
+                        <tr>
+                            <th>Samsung</th>
+                            <th>Redmi </th>
+                            <th>Apple</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>S serialar</td>
+                            <td>S serialar</td>
+                            <td>S serialar</td>
+                        </tr>
+                        <tr>
+                            <td>A serialar</td>
+                            <td>A serialar</td>
+                            <td>A serialar</td>
+                        </tr>
+                        <tr>
+                            <td>Note serilar</td>
+                            <td>Note serilar</td>
+                            <td>Note serilar</td>
+                        </tr>
+                        <tr>
+                            <td>M serialar</td>
+                            <td>M serialar</td>
+                            <td>M serialar</td>
+                        </tr>
+    
+                    </tbody>
+                </table>
+                <table>
+    
+                    <thead>
+                        <tr>
+                            <th>Xuawei</th>
+                            <th>Eng </th>
+                            <th>Eng arzon</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>S serialar</td>
+                            <td>S serialar</td>
+                            <td>S serialar</td>
+                        </tr>
+                        <tr>
+                            <td>A serialar</td>
+                            <td>A serialar</td>
+                            <td>A serialar</td>
+                        </tr>
+                        <tr>
+                            <td>Note serilar</td>
+                            <td>Note serilar</td>
+                            <td>Note serilar</td>
+                        </tr>
+                        <tr>
+                            <td>M serialar</td>
+                            <td>M serialar</td>
+                            <td>M serialar</td>
+                        </tr>
+    
+                    </tbody>
+                </table>
+                <table>
+    
+                    <thead>
+                        <tr>
+                            <th>Huawei</th>
+                            <th>Redmi</th>
+                            <th>Huawei</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>S serialar</td>
+                            <td>S serialar</td>
+                            <td>S serialar</td>
+                        </tr>
+                        <tr>
+                            <td>A serialar</td>
+                            <td>A serialar</td>
+                            <td>A serialar</td>
+                        </tr>
+                        <tr>
+                            <td>Note serilar</td>
+                            <td>Note serilar</td>
+                            <td>Note serilar</td>
+                        </tr>
+                        <tr>
+                            <td>M serialar</td>
+                            <td>M serialar</td>
+                            <td>M serialar</td>
+                        </tr>
+    
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ============================= HEADER START ========================== -->
+    <header>
+      <div class="container">
+
+        <div class="header-top">
+          <span></span>
+          <a href="#">
+            <i class="bx bxs-envelope"></i>
+            <span>Aloqa uchun</span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <nav class="nav">
+          
+          <div class="menu__logo_wrapper">
+
+            <button id="hamburger_menu" class="menu__wrapper">
+              <span>
+                <i class='bx bx-menu' ></i>
+              </span>
+            </button>
+
+            <a href="#" class="nav__logo">
+              <img src="../../public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
+            </a>
+            <span></span>
+          </div>
+
+            <ul class="nav__list">
+              <li class="nav__list--item">
+                <button id="toggle">
+                    <span id="icon-menu">
+                        <i class="bx bx-menu"></i>
+                    </span>
+                <span>KATALOG</span>
+                </button>
+              </li>
+  
+              <li class="nav__list--item nav__list--search">
+                <div class="search__wrapper">
+                  <input type="text" placeholder="Maxsulotlarni izlash"/>
+                  <button>
+                    <i class="bx bx-search"></i>
+                  </button>
+                </div>
+              </li>
+
+              <li class="nav__list--item">
+                <button>
+                    <a href="#"><i class="bx bx-heart"></i></a>
+                </button>
+                <button>
+                    <a href="#"><i class="bx bx-cart"></i></a>
+                </button>
+                <button id="user">
+                    <i class="bx bx-user"></i>
+                </button>
+              </li>
+
+          </ul>
+
+        </nav>
+
+      </div>
+    </header>
+    <!-- ============================= HEADER END ========================== -->
+
+    <main>
+<!-- intro -->
+        <section id="intro">
+            <div class="container">
+                <p class="breadcrump">Nextstore/Kompyuterlar va notebooklar/Laptop <Notebooklar>
+                <span class="black__text"> Notebook Apple Macbook Pro 13" 2.4 2019 Intel core i5  DDR3 8 GB SSD 256 GB</span>  </p>
+                
+                <div class="wrapper">
+
+                    <div class="left">
+                        <div class="card">
+                            <img class="heart" src="../../assets/icons/heart.svg" alt="heart">
+                            <img class="share" src="../../assets/icons/share.svg" alt="share">
+                            <img class="mac" src="../../assets/icons/macbook_d.svg" alt="macbook">
+                        </div>
+                        <div class="cards">
+                            <img src="../../assets/icons/mac_face.svg" alt="mac">
+                            <img src="../../assets/icons/Mac_side.svg" alt="mac">
+                            <img src="../../assets/icons/mac_left.svg" alt="mac">
+                            <img src="../../assets/icons/mac_top.svg" alt="mac">
+                        </div>
+                    </div>
+
+
+                    <div class="right">
+                        <h2>Notebook Apple Macbok Pro 13” 2.3 2019 
+                            Intel core i5 DDR3 8GB 256 GB</h2>
+                        <div class="colors__card">
+
+                            <div class="color_content">
+                                <span>Rangi</span>
+                                <span>Space Gray</span>
+                            </div>
+
+                            <div class="color_choice">
+                                <img src="../../assets/icons/choice_1.svg" alt="color">
+                                <img src="../../assets/icons/choice_2.svg" alt="color">
+                                <img src="../../assets/icons/choice_3.svg" alt="color">
+                                <img src="../../assets/icons/choice_4.svg" alt="color">
+                            </div>
+
+                            <h1>16 114 285 so'm / dona</h1>
+
+                            <p>6 434 000 so'm  x 3 oy</p>
+
+                            <ul class="list">
+                                <li class="list__item"><a href="#"></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+           
+            </div>
+        </section>
+
+
+    <!-- most sold products -->
+      <section id="kop__sotilgan">
+        <div class="container">
+            <h3>Eng ko’p sotilgan</h3>
+            <div class="cards">
+            <div class="card">
+                <div class="stickers">
+                <span class="yangilik">Yangilik</span>
+                <i class="bx bx-heart"></i>
+                </div>
+
+                <img src="../../assets/images/airpods.png" alt="macbook" />
+
+                <div class="card__body">
+                <p class="price">299 000 so’m</p>
+                <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                </p>
+                <p class="order">Buyurtma</p>
+
+                <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="stickers">
+                <span></span>
+                <i class="bx bx-heart"></i>
+                </div>
+                <img src="../../assets/images/macbook.png" alt="macbook" />
+
+                <div class="card__body">
+                <p class="price">299 000 so’m</p>
+                <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                </p>
+                <p class="order">Buyurtma</p>
+
+                <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="stickers">
+                <span class="yangilik">Yangilik</span>
+                <i class="bx bx-heart"></i>
+                </div>
+
+                <img src="../../assets/images/watch.png" alt="macbook" />
+
+                <div class="card__body">
+                <p class="price">299 000 so’m</p>
+                <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                </p>
+                <p class="order">Buyurtma</p>
+
+                <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="stickers">
+                <span></span>
+                <i class="bx bx-heart"></i>
+                </div>
+                <img src="../../assets/images/vaccum.svg" alt="macbook" />
+
+                <div class="card__body">
+                <p class="price">299 000 so’m</p>
+                <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                </p>
+                <p class="order">Buyurtma</p>
+
+                <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="stickers">
+                <p class="sale">Top sale</p>
+                <i class="bx bx-heart"></i>
+                </div>
+
+                <img src="../../assets/images/cv.svg" alt="macbook" />
+
+                <div class="card__body">
+                <p class="price">299 000 so’m</p>
+                <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                </p>
+                <p class="order">Buyurtma</p>
+
+                <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <div class="left">
+
+            <ul class="list">
+              <li class="list_item bold">Hujjatlar</li>
+              <li class="list_item"><a href="#">Umumiy shartlar</a></li>
+              <li class="list_item"><a href="#">Ofertalar arxivi</a></li>
+              <li class="list_item"><a href="#">Nizom</a></li>
+              <li class="list_item"><a href="#">Guvohnoma</a></li>
+            </ul>
+
+            <ul class="list">
+              <li class="list_item bold">Servis</li>
+              <li class="list_item"><a href="#">Do’konlar</a></li>
+              <li class="list_item"><a href="#">Biz haqimizda</a></li>
+              <li class="list_item"><a href="#">Hamkorlik uchun</a></li>
+              <li class="list_item"><a href="#">Guvohnoma</a></li>
+            </ul>
+
+            <ul class="list">
+              <li class="list_item bold">Hujjatlar</li>
+              <li class="list_item"><a href="#">Umumiy shartlar</a></li>
+              <li class="list_item"><a href="#">Ofertalar arxivi</a></li>
+              <li class="list_item"><a href="#">Nizom</a></li>
+              <li class="list_item"><a href="#">Qaytarish</a></li>
+              <li class="list_item"><a href="#">Promokodlar</a></li>
+            </ul>
+
+            <ul class="list">
+              <li class="list_item bold">Hujjatlar</li>
+              <li class="list_item"><a href="#">Katalog 1</a></li>
+              <li class="list_item"><a href="#">Katalog 1</a></li>
+              <li class="list_item"><a href="#">Katalog 2</a></li>
+              <li class="list_item"><a href="#">Katalog 2</a></li>
+              <li class="list_item"><a href="#">Katalog 3</a></li>
+              <li class="list_item"><a href="#">Katalog 3</a></li>
+
+            </ul>
+
+          </div>
+          <div class="right">
+
+
+            <ul class="list">
+              <li class="list_item bold">Axbarot xizmati</li>
+              <li class="list_item"><a href="#">contact.@nextstore.uz</a></li>
+              <li class="list_item"><a href="#">+998 97 712 96 96 <br> 
+                +998 95 503 09 09</a></li>
+              <li class="list_item"><a href="#">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</a></li>
+              <div class="socials">
+                <img src="../../assets/icons/facebook.svg" alt="facebook">
+                <img src="../../assets/icons/insta.svg" alt="insta">
+                <img src="../../assets/icons/telegram.svg" alt="telegram">
+                <img src="../../assets/icons/tiktok.svg" alt="tiktok">
+              </div>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="copyright">
+          <div class="left">
+            <p>2022  Nextstore.com</p>
+          </div>
+          <div class="right">
+            <p>Powered by </p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../../js/catalog.js"></script>
+    <script src="../../js/loader.js"></script>
+    <script src="../../js/side_panel.js"></script>
+    <script src="../../js/sign.js"></script>
+    <script src="../../js/swiper.js"></script>
+  </body>
+</html>

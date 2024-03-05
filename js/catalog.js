@@ -1,7 +1,7 @@
 
 // Catalog Panel
 var toggle__btn = document.getElementById('toggle');
-var catalogPanel = document.getElementById('catalog');
+var catalogShow = document.getElementById('catalog');
 var icon__menu = document.getElementById('icon-menu');
 // Catalog Pannel
 catalogShow.addEventListener('click', function(){
