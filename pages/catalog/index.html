@@ -15,6 +15,7 @@
     <!-- -----  Main.css ---------- -->
     <link rel="stylesheet" href="../../main.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../common/style.css">
   </head>
   <body>
     <!--------------- Loader ---------->
@@ -361,67 +362,69 @@
         <div class="container">
             <div class="wrapper">
 
-                <sidebar class="left">
-    
-                    <h4>Katalog</h4>
-    
-                    <ul class="mixed_list">
-                        <li>
-                            <img src="../../assets/icons/left_b.svg" alt="left">
-                            <span>Smartfonlar</span>
-                        </li>
-                        <li>
-                            <img src="../../assets/icons/left_b.svg" alt="left">
-                            <span>Kir yuvish mashinalari</span>
-                        </li>
-                        <li>
-                            <img src="../../assets/icons/left_b.svg" alt="left">
-                            <span>Smartfonlar</span>
-                        </li>
-                        <li>
-                            <img src="../../assets/icons/left_b.svg" alt="left">
-                            <span>Kir yuvish mashinalari</span>
-                        </li>
-                        <li>
-                            <img src="../../assets/icons/left_b.svg" alt="left">
-                            <span>Smartfonlar</span>
-                        </li>
-                        <li>
-                            <img src="../../assets/icons/left_b.svg" alt="left">
-                            <span>Smartfonlar</span>
-                        </li>
-                        <li>
-                            <img src="../../assets/icons/left_b.svg" alt="left">
-                            <span>Smartfonlar</span>
-                        </li>
-                        <li class="opened_item">
-                            <img src="../../assets/icons/down_b.svg" alt="down">
-                            <span>Kir yuvish mashinalari</span>
-                        </li>
-                        <li><a href="#">Shaxsiy kompyuterlar uchun keyslar</a></li>
-                        <li><a href="#">Laptop Notebooklar</a></li>
-                        <li><a class="blue_text"href="#">Shaxsiy komyuter uchun manitorlar</a></li>
-                        <li><a href="#">Quloqchinlar</a></li>
-                        <li><a href="#">Mishkalar</a></li>
-                        <li><a href="#">Aksesuarlar</a></li>
-                        <li><a href="#">Kovreklar</a></li>
-                        <li><a href="#">Videokartalar</a></li>
-                        <li><a href="#">Protsessorlar</a></li>
-                        <li><a href="#">Kompyuter sovutish tizimi </a></li>
-                        <li><a href="#">Block power kompyuter uchun</a></li>
-                    </ul>
-   
-                    <h4 class="som_title">Narx so’mda</h4>
-                    <div class="input_wrapper">
-                        <input type="number">
-                        <input type="number" placeholder="1000 000">
-                    </div>
-                    <input type="range">
+                <div class="left">
+
+                        <h4>Katalog</h4>
+        
+                        <ul class="mixed_list">
+                            <li>
+                                <img src="../../assets/icons/left_b.svg" alt="left">
+                                <span>Smartfonlar</span>
+                            </li>
+                            <li>
+                                <img src="../../assets/icons/left_b.svg" alt="left">
+                                <span>Kir yuvish mashinalari</span>
+                            </li>
+                            <li>
+                                <img src="../../assets/icons/left_b.svg" alt="left">
+                                <span>Smartfonlar</span>
+                            </li>
+                            <li>
+                                <img src="../../assets/icons/left_b.svg" alt="left">
+                                <span>Kir yuvish mashinalari</span>
+                            </li>
+                            <li>
+                                <img src="../../assets/icons/left_b.svg" alt="left">
+                                <span>Smartfonlar</span>
+                            </li>
+                            <li>
+                                <img src="../../assets/icons/left_b.svg" alt="left">
+                                <span>Smartfonlar</span>
+                            </li>
+                            <li>
+                                <img src="../../assets/icons/left_b.svg" alt="left">
+                                <span>Smartfonlar</span>
+                            </li>
+                            <li class="opened_item">
+                                <img src="../../assets/icons/down_b.svg" alt="down">
+                                <span>Kir yuvish mashinalari</span>
+                            </li>
+                            <li><a href="#">Shaxsiy kompyuterlar uchun keyslar</a></li>
+                            <li><a href="#">Laptop Notebooklar</a></li>
+                            <li><a class="blue_text"href="#">Shaxsiy komyuter uchun manitorlar</a></li>
+                            <li><a href="#">Quloqchinlar</a></li>
+                            <li><a href="#">Mishkalar</a></li>
+                            <li><a href="#">Aksesuarlar</a></li>
+                            <li><a href="#">Kovreklar</a></li>
+                            <li><a href="#">Videokartalar</a></li>
+                            <li><a href="#">Protsessorlar</a></li>
+                            <li><a href="#">Kompyuter sovutish tizimi </a></li>
+                            <li><a href="#">Block power kompyuter uchun</a></li>
+                        </ul>
+
+                        <h4 class="sub_title">Narx so’mda</h4> 
+                        <div class="input_wrapper">
+                            <input type="number">
+                            <input type="number" placeholder="1000 000">
+                        </div>
+
+                        <input type="range">
+
 
                     <div class="searching">
-                        <h5>Brend bo’yicha</h5>
-                        <label>
-                            <input type="text" placeholder="Qidirish">
+                        <h5 class="sub_title">Brend bo’yicha</h5>
+                        <label for="search" class="search">
+                            <input type="text" id="search" placeholder="Qidirish">
                             <img src="../../assets/icons/search.svg" alt="search">
                         </label>
 
@@ -430,6 +433,7 @@
                                 <div class="brend">
                                     <input type="checkbox">
                                     <span>Apple</span>
+
                                 </div>
                                 <div class="brend">
                                     <input type="checkbox">
@@ -455,61 +459,9 @@
                                     <input type="checkbox">
                                     <span>Apple</span>
                                 </div>
-                            </div>
-                            <div class="id_number">
-                                <p>23145</p>
-                                <p>23145</p>
-                                <p>23145</p>
-                                <p>23145</p>
-                                <p>23145</p>
-                                <p>23145</p>
-                                <p>23145</p>
                             </div>
 
-                            <div class="toggle_container">
-                                <p>Bo’lib to’lash
-                                    <img src="../../assets/icons/switch_off.svg" alt="off">
-                                </p>
-                                <p>Bo’lib to’lash
-                                    <img src="../../assets/icons/switch_on.svg" alt="on">
-                                </p>
-                                <p>Bo’lib to’lash
-                                    <img src="../../assets/icons/switch_off.svg" alt="off">
-                                </p>
-                            </div>
-
-                            <div class="check">
-                                <div class="brend">
-                                    <input type="checkbox">
-                                    <span>Apple</span>
-                                </div>
-                                <div class="brend">
-                                    <input type="checkbox">
-                                    <span>Apple</span>
-                                </div>
-                                <div class="brend">
-                                    <input type="checkbox">
-                                    <span>Apple</span>
-                                </div>
-                                <div class="brend">
-                                    <input type="checkbox">
-                                    <span>Apple</span>
-                                </div>
-                                <div class="brend">
-                                    <input type="checkbox">
-                                    <span>Apple</span>
-                                </div>
-                                <div class="brend">
-                                    <input type="checkbox">
-                                    <span>Apple</span>
-                                </div>
-                                <div class="brend">
-                                    <input type="checkbox">
-                                    <span>Apple</span>
-                                </div>
-                            </div>
                             <div class="id_number">
-                                <p>23145</p>
                                 <p>23145</p>
                                 <p>23145</p>
                                 <p>23145</p>
@@ -518,16 +470,227 @@
                                 <p>23145</p>
                             </div>
                         </div>
+                            <div class="toggle_container">
+                                    <div class="toggle_item">
+                                        <p>Bo’lib to’lash</p>
+                                        <img src="../../assets/icons/switch_off.svg" alt="off">
+                                    </div>
+                                    <div class="toggle_item">
+                                        <p>Bo’lib to’lash</p>
+                                        <img src="../../assets/icons/switch_on.svg" alt="on">
+                                    </div>
+                                    <div class="toggle_item">
+                                        <p>Bo’lib to’lash</p>
+                                        <img src="../../assets/icons/switch_off.svg" alt="off">
+                                    </div>
 
-                        <button>Filtrni tozalash</button>
+                            </div>
+                            <div class="brends">
+                                <div class="check">
+                                    <div class="brend">
+                                        <input type="checkbox">
+                                        <span>Apple</span>
+    
+                                    </div>
+                                    <div class="brend">
+                                        <input type="checkbox">
+                                        <span>Apple</span>
+                                    </div>
+                                    <div class="brend">
+                                        <input type="checkbox">
+                                        <span>Apple</span>
+                                    </div>
+                                    <div class="brend">
+                                        <input type="checkbox">
+                                        <span>Apple</span>
+                                    </div>
+                                    <div class="brend">
+                                        <input type="checkbox">
+                                        <span>Apple</span>
+                                    </div>
+                                    <div class="brend">
+                                        <input type="checkbox">
+                                        <span>Apple</span>
+                                    </div>
+                                    <div class="brend">
+                                        <input type="checkbox">
+                                        <span>Apple</span>
+                                    </div>
+                                </div>
+    
+                                <div class="id_number">
+                                    <p>23145</p>
+                                    <p>23145</p>
+                                    <p>23145</p>
+                                    <p>23145</p>
+                                    <p>23145</p>
+                                    <p>23145</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="filter_btn">Filtrni tozalash</button>
+                </div>
+    
+             
+                <div class="right">
+
+                    <div class="primary__buttons">
+                        <button class="all_btn">Barchasi 
+                            <img src="../../assets/icons/down_b.svg" alt="down">
+                        </button>
+                        <button>Kreditga olish
+                            <img src="../../assets/icons/x.svg" alt="x">
+                        </button>
+                        <button>Xiaomi
+                            <img src="../../assets/icons/x.svg" alt="x">
+                        </button>
+                        <button>Yetkazib berish
+                            <img src="../../assets/icons/x.svg" alt="x">
+                        </button>
+                        <br>
+                        <button>Chegirmali maslahatlar
+                            <img src="../../assets/icons/x.svg" alt="x">
+                        </button>
+                    </div>
+
+                    <h1>Hello world</h1>
+                          <!-- products start -->
+
+                    <div class="cards5">
+                        <div class="card">
+                        <img src="../../assets/images/case_ps.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/macbook.svg" alt="macbook" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/monitor.svg" alt="monitor" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/headphones.svg" alt="headphones" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/mouse.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img
+                            src="../../assets/images/accessories.svg"
+                            alt="case for ps"
+                        />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/kovrek.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/videocard.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/intel.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/cooler.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/blockpower.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/bag.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/keyboard.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/chess.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/chess.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/chess.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/chess.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <img src="../../assets/images/chess.svg" alt="case for ps" />
+                        <div class="card__body">
+                            <h3 class="products__title">Shaxsiy kompyuter uchun keyslar</h3>
+                            <span class="light__text">232 ta maxsulot</span>
+                        </div>
+                        </div>
                     </div>
 
 
-
-                </sidebar>
-    
-                <div class="right">
-                    <h1>right</h1>
+                    <!-- products start -->
                 </div>
 
             </div>

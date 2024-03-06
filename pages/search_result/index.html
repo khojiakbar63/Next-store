@@ -11,20 +11,21 @@
     />
 
     <!-- ------ Favicons ------- -->
-    <link rel="icon" href="./public/Logo.svg" />
+    <link rel="icon" href="../../public/Logo.svg" />
     <!-- -----  Main.css ---------- -->
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="../../main.css" />
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
 
     <!--------------- Loader ---------->
-    <div id="blur_bg" class="blur_bg">
+    <!-- <div id="blur_bg" class="blur_bg">
 
         <div class="loader__wrapper">
             <div id="loader" class="loader"></div>
         </div>
 
-    </div>
+    </div> -->
     <!-------------  Account  -------->
     <div id="account" class="show__side_panell">
 
@@ -283,7 +284,7 @@
             </button>
 
             <a href="#" class="nav__logo">
-              <img src="./public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
+              <img src="../../public/Logo.svg" alt="Nextstore.uz Internet do'koni" />
             </a>
             <span></span>
           </div>
@@ -330,372 +331,110 @@
     <!-- ============================= HEADER END ========================== -->
 
     <main>
-<!-- intro -->
-      <section id="intro">
 
-            <div class="container relative">
-<!-- Swiper -->
-              <div class="wrapper category_wrapper">
 
-                <!-- Slider main container -->
-                <div class="swiper categorySwiper">
-                  <!-- Additional required wrapper -->
-                  <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <img class="slide_img" src="./assets/images/intr-banner.jpg" alt="banner_slide_1">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="slide_img" src="assets/images/banner_slide_2.avif" alt="banner_slide_2">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="slide_img" src="./assets/images/banner_slide_3.jpeg" alt="banner_slide_3">
-                        </div>
-                        ...
-                    </div>
-                    
-                    <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev inside_slider inside_slider-prev"></div>
-                <div class="swiper-button-next inside_slider inside_slider-next"></div>
 
-                </div>
 
-              </div>
-
-            </div>
-      </section>
-      
-<!-- category -->
-      <section id="category">
-        <div class="container">
-          <h3 class="category__title">Kategoriyalar</h3>
-           <!-- cards -->
-           <div class="cards">
-
-               
-               <div class="card">
-                   <img src="./assets/images/ipgone.jpg" alt="iphone" />
-                   <div class="card__body">
-                      <a target="_blank" href="./pages/common/">
-                        <h4>Smartfonlar</h4>
-                      </a>
-                  </div>
-               </div>
-
-                
-                <div class="card">
-                    <img src="./assets/images/macbook.png" alt="mac" />
-                    <div class="card__body">
-                        <a target="_blank" href="./pages/single__product/">
-                            <h4>Kompyuterlar va notebooklar</h4>
-                        </a>
-                    </div>
-                </div>
-
-                
-                <div class="card">
-                    <img src="./assets/images/tv.png" alt="tv" />
-                    <div class="card__body">
-                        <a target="_blank" href="./pages/common/">
-                            <h4>Televizorlar</h4>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/watch.png" alt="watch" />
-                    <div class="card__body">
-                        <a target="_blank" href="./pages/common/">
-                            <h4>Aqlli soatlar</h4>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/airpods.png" alt="airpods" />
-                    <div class="card__body">
-                        <a target="_blank" href="./pages/common/">
-                            <h4>Quloqchinlar</h4>
-                        </a>
-                    </div>
-                </div>
-
-            
-            <div class="card">
-                <img src="./assets/images/kondisaner.png" alt="conditioner" />
-                <div class="card__body">
-                    <a target="_blank" href="./pages/common/">
-                        <h4>Konditsioner</h4>
-                    </a>
-                </div>
-            </div>
-
-            
-            <div class="card">
-                <img src="./assets/images/artel.png" alt="artel" />
-                <div class="card__body">
-                    <a target="_blank" href="./pages/common/">
-                        <h4>Sovutkichlar</h4>
-                    </a>
-                </div>
-            </div>
-
-            
-            <div class="card">
-                    <img src="./assets/images/cleaner.png" alt="vacuum cleaner" />
-                    <div class="card__body">
-                        <a target="_blank" href="./pages/common/">
-                            <h4>Kir yuvish mashinalari</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-          <!-- cards -->
-          <button class="btn batafsil__btn">Batafsil</button>
-        </div>
-      </section>
-<!-- kop sotilgan -->
-      <section id="kop__sotilgan">
-        <div class="container">
-          <h3 class="intro__title kop__sotilgan_title">Eng ko’p sotilgan</h3>
-
-          <!-- cards 2 -->
-          <div class="cards2">
-
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <i class="bx bx-heart"></i>
-              <img src="./assets/images/macbook.png" alt="macbook" />
-
-              <div class="card__body">
-                <p class="price">299 000 so’m</p>
-                <p class="model">
-                  Apple Airpods Pro <br />
-                  simsiz quloqchin , Oq rangda
-                </p>
-                <p class="order">Buyurtma</p>
-
-                <div class="btns">
-                  <button class="card__btn">Sotib olish</button>
-                  <i class="bx bx-cart-alt"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button class="btn batafsil__btn">Ko’proq ko’rish</button>
-          <!-- cards 2 -->
-        </div>
-      </section>
-<!-- dom banner -->
-       <section id="dom__banner">
-        <div class="container">
-
-          <div class="wrapper">
-
-            <!-- Slider main container -->
-            <div class="swiper domSwiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img class="slide_img" src="./assets/images/image 1.svg" alt="banner_slide_1">
-                </div>
-                <div class="swiper-slide">
-                  <img class="slide_img" src="assets/images/banner_slide_2.avif" alt="banner_slide_2">
-                </div>
-                <div class="swiper-slide">
-                  <img class="slide_img" src="./assets/images/banner_slide_3.jpeg" alt="banner_slide_3">
-                </div>
-                ...
-              </div>
- 
-            </div>
-
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev outside_slider"></div>
-            <div class="swiper-button-next outside_slider"></div>
-
-          </div>
-
-        </div>
-       </section>
-<!-- ommabob -->
+<!------- ommabob -->
        <section id="ommabob">
         <div class="container">
-          <h3 class="intro__title intro__title2">Eng ommabop</h3>
+          <h3 class="intro__title intro__title2">“ Xiaomi “ so’rovi uchun topildi : 1242 ta mahsulot</h3>
            <!-- cards 2 -->
            <div class="cards2">
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
+
+                <div class="card__body">
+                  <p class="price">299 000 so’m</p>
+                  <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                  </p>
+                  <p class="order">Buyurtma</p>
+
+                  <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <i class="bx bx-heart"></i>
+                <img src="../../assets/images/macbook.png" alt="macbook" />
+
+                <div class="card__body">
+                  <p class="price">299 000 so’m</p>
+                  <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                  </p>
+                  <p class="order">Buyurtma</p>
+
+                  <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <i class="bx bx-heart"></i>
+                <img src="../../assets/images/macbook.png" alt="macbook" />
+
+                <div class="card__body">
+                  <p class="price">299 000 so’m</p>
+                  <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                  </p>
+                  <p class="order">Buyurtma</p>
+
+                  <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <i class="bx bx-heart"></i>
+                <img src="../../assets/images/macbook.png" alt="macbook" />
+
+                <div class="card__body">
+                  <p class="price">299 000 so’m</p>
+                  <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                  </p>
+                  <p class="order">Buyurtma</p>
+
+                  <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <i class="bx bx-heart"></i>
+                <img src="../../assets/images/macbook.png" alt="macbook" />
+
+                <div class="card__body">
+                  <p class="price">299 000 so’m</p>
+                  <p class="model">
+                    Apple Airpods Pro <br />
+                    simsiz quloqchin , Oq rangda
+                  </p>
+                  <p class="order">Buyurtma</p>
+
+                  <div class="btns">
+                    <button class="card__btn">Sotib olish</button>
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <i class="bx bx-heart"></i>
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -714,7 +453,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -733,7 +472,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -752,7 +491,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -771,7 +510,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -790,7 +529,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -809,7 +548,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -828,7 +567,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -847,7 +586,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -866,7 +605,7 @@
 
               <div class="card">
                 <i class="bx bx-heart"></i>
-                <img src="./assets/images/macbook.png" alt="macbook" />
+                <img src="../../assets/images/macbook.png" alt="macbook" />
 
                 <div class="card__body">
                   <p class="price">299 000 so’m</p>
@@ -883,152 +622,152 @@
                 </div>
               </div>
           </div>
-          <button class="btn batafsil__btn">Ko'proq ko'rish</button>
         </div>
         </div>
        </section>
-<!-- brendlar -->
-       <section id="brends">
-        <div class="container">
-          <h3 class="intro__title intro__title2">Brendlar bo’yicha</h3>
-          <div class="wrapper">
-            <div class="cards2 cards3">
 
-              <div class="card">
-                <img src="./assets/icons/hp.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/acer.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/asus.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/sumsung.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/apple.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/msi.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/mi.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/vivo.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
+<div class="slide_panel">
+    <ul>
+        <li>
+            <img src="../../assets/icons/left.svg" alt="left">
+        </li>
+        <li>
+            1
+        </li>
+        <li>
+            2
+        </li>
+        <li>
+           3
+        </li>
+        <li>
+            <img src="../../assets/icons/dots.svg" alt="dots">
+        </li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>
+            <img src="../../assets/icons/right.svg" alt="right">
+        </li>
+    </ul>
+</div>
 
-            </div>
-          </div>
-          
-        </div>
-       </section>
-<!-- dom banner -->
-       <section id="dom__banner">
-        <div class="container">
+<!----- most sold products ------>
+        <section id="kop__sotilgan">
+            <div class="container">
+                <h3>Eng ko’p sotilgan</h3>
+                <div class="cards">
+                <div class="card">
+                    <div class="stickers">
+                    <span class="yangilik">Yangilik</span>
+                    <i class="bx bx-heart"></i>
+                    </div>
 
-          <div class="wrapper">
+                    <img src="../../assets/images/airpods.png" alt="macbook" />
 
-            <!-- Slider main container -->
-            <div class="swiper domSwiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img class="slide_img" src="./assets/images/image 1.svg" alt="banner_slide_1">
+                    <div class="card__body">
+                    <p class="price">299 000 so’m</p>
+                    <p class="model">
+                        Apple Airpods Pro <br />
+                        simsiz quloqchin , Oq rangda
+                    </p>
+                    <p class="order">Buyurtma</p>
+
+                    <div class="btns">
+                        <button class="card__btn">Sotib olish</button>
+                        <i class="bx bx-cart-alt"></i>
+                    </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                  <img class="slide_img" src="assets/images/banner_slide_2.avif" alt="banner_slide_2">
+                <div class="card">
+                    <div class="stickers">
+                    <span></span>
+                    <i class="bx bx-heart"></i>
+                    </div>
+                    <img src="../../assets/images/macbook.png" alt="macbook" />
+
+                    <div class="card__body">
+                    <p class="price">299 000 so’m</p>
+                    <p class="model">
+                        Apple Airpods Pro <br />
+                        simsiz quloqchin , Oq rangda
+                    </p>
+                    <p class="order">Buyurtma</p>
+
+                    <div class="btns">
+                        <button class="card__btn">Sotib olish</button>
+                        <i class="bx bx-cart-alt"></i>
+                    </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                  <img class="slide_img" src="./assets/images/banner_slide_3.jpeg" alt="banner_slide_3">
+                <div class="card">
+                    <div class="stickers">
+                    <span class="yangilik">Yangilik</span>
+                    <i class="bx bx-heart"></i>
+                    </div>
+
+                    <img src="../../assets/images/watch.png" alt="macbook" />
+
+                    <div class="card__body">
+                    <p class="price">299 000 so’m</p>
+                    <p class="model">
+                        Apple Airpods Pro <br />
+                        simsiz quloqchin , Oq rangda
+                    </p>
+                    <p class="order">Buyurtma</p>
+
+                    <div class="btns">
+                        <button class="card__btn">Sotib olish</button>
+                        <i class="bx bx-cart-alt"></i>
+                    </div>
+                    </div>
                 </div>
-                ...
-              </div>
+                <div class="card">
+                    <div class="stickers">
+                    <span></span>
+                    <i class="bx bx-heart"></i>
+                    </div>
+                    <img src="../../assets/images/vaccum.svg" alt="macbook" />
 
-  
+                    <div class="card__body">
+                    <p class="price">299 000 so’m</p>
+                    <p class="model">
+                        Apple Airpods Pro <br />
+                        simsiz quloqchin , Oq rangda
+                    </p>
+                    <p class="order">Buyurtma</p>
+
+                    <div class="btns">
+                        <button class="card__btn">Sotib olish</button>
+                        <i class="bx bx-cart-alt"></i>
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="stickers">
+                    <p class="sale">Top sale</p>
+                    <i class="bx bx-heart"></i>
+                    </div>
+
+                    <img src="../../assets/images/cv.svg" alt="macbook" />
+
+                    <div class="card__body">
+                    <p class="price">299 000 so’m</p>
+                    <p class="model">
+                        Apple Airpods Pro <br />
+                        simsiz quloqchin , Oq rangda
+                    </p>
+                    <p class="order">Buyurtma</p>
+
+                    <div class="btns">
+                        <button class="card__btn">Sotib olish</button>
+                        <i class="bx bx-cart-alt"></i>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev outside_slider"></div>
-            <div class="swiper-button-next outside_slider"></div>
-
-          </div>
-
-        </div>
-       </section>
-      <!-- brendlar -->
-      <section id="brends">
-        <div class="container">
-          <h3 class="intro__title intro__title2">Do’konlarimiz</h3>
-          <div class="wrapper">
-            <div class="cards2 cards3">
-
-              <div class="card">
-                <img src="./assets/icons/elmakon.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/texnomart.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/mediapark.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/sandiq.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/goodzone.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-              <div class="card">
-                <img src="./assets/icons/chess.svg" alt="hp">
-              </div>
-
-            </div>
-          </div>
-          
-        </div>
-      </section>
+        </section>
     </main>
     <footer>
       <div class="container">
