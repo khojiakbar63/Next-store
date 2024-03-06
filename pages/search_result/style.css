@@ -3,4 +3,21 @@
 }
 #kop__sotilgan{
     margin-top: 50px;
+    width: 100%;
+}
+.slide_panel .wrapper{
+    align-items: center;
+    justify-content: end;
+    padding-top: 30px;
+}
+.slide_panel ul{
+    margin-top: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #fff;
+    width: 480px;
+    padding: 18px;
+    border-radius: 8px;
 }
